@@ -1,0 +1,7 @@
+{
+  "name": "AplicacionGab",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

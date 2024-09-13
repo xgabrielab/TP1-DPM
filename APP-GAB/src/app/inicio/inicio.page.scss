@@ -1,0 +1,29 @@
+
+
+.welcome-container {
+    text-align: center;
+    margin: 16px;
+  }
+  
+  .avatar {
+    display: block;           
+    width: 100px;             
+    height: 100px;            
+    border-radius: 50%;      
+    object-fit: cover;        
+    margin: 0 auto;           
+  }
+  
+  
+  .welcome-container h2 {
+    margin-top: 8px;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 16px;
+  }
+  
+  

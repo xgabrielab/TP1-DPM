@@ -1,0 +1,47 @@
+
+<ion-menu content-id="main-content">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-button expand="full" color="primary" (click)="navigateToProfile()">Mi perfil</ion-button>
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Inicio</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <div class="welcome-container">
+      <ion-img src="assets/avatar.jpg" class="avatar"></ion-img>
+      <h2>¡Hola!</h2>
+    </div>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Escribe tus tareas pendientes del día de hoy</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item>
+          <ion-input placeholder="Escribe aquí tus tareas" type="text"></ion-input>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+
+    <div class="button-group">
+      <ion-button color="primary" expand="full" (click)="onEdit()">Editar</ion-button>
+      <ion-button color="primary" expand="full" (click)="onDelete()">Borrar</ion-button>
+      <ion-button color="primary" expand="full" (click)="onSave()">Guardar</ion-button>
+      <ion-button color="primary" expand="full" (click)="onModify()">Modificar</ion-button>
+    </div>
+  </ion-content>
+</div>
